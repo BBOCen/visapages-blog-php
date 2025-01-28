@@ -1,4 +1,4 @@
-<h1 align="center">📝 Blog en PHP: Publicación y Gestión de Artículos 📝</h1>
+<h1 align="center">📝 Visapages || Blog en PHP: Publicación y Gestión de Artículos 📝</h1>
 
 <p align="center">
   Este proyecto es un blog desarrollado en PHP que incluye una sección pública y privada. Los usuarios pueden leer los artículos en la sección pública, 
@@ -12,7 +12,7 @@
 
 <h3>📖 Sección Pública y Privada</h3>
 <ul>
-  <li><strong>Sección pública:</strong> Los visitantes pueden leer artículos sobre diversos temas.</li>
+  <li><strong>Sección pública:</strong> Los visitantes pueden leer artículos sobre diversos temas relacionados con visados.</li>
   <li><strong>Sección privada:</strong> Accesible solo para administradores, quienes tienen la capacidad de crear, editar, eliminar y organizar artículos.</li>
 </ul>
 
@@ -66,7 +66,7 @@
   <li><strong>Ejecutar el proyecto:</strong>
     <ul>
       <li>Inicia el servidor Apache y MySQL desde el panel de control de XAMPP o WAMP.</li>
-      <li>Abre tu navegador y accede a <code>http://localhost/nombre_de_tu_proyecto</code>.</li>
+      <li>Abre tu navegador y accede a <code>http://localhost/visapages</code>.</li>
     </ul>
   </li>
 </ol>
