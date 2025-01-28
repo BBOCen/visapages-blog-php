@@ -81,3 +81,5 @@
 ---
 
 El template usado en este proyecto es el siguiente: https://www.free-css.com/free-css-templates/page200/magexpress
+
+La base de datos usada para determinar el país del usuario es la de IP2Location.
