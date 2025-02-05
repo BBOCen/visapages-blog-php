@@ -1,85 +1,87 @@
-<h1 align="center">📝 Visapages || Blog en PHP: Publicación y Gestión de Artículos 📝</h1>
+<h1 align="center">📝 Visapages || Blog in PHP: Article Publishing and Management 📝</h1>
 
 <p align="center">
-  Este proyecto es un blog desarrollado en PHP que incluye una sección pública y privada. Los usuarios pueden leer los artículos en la sección pública, 
-  mientras que los administradores gestionan y organizan el contenido en la parte privada. Además, los usuarios registrados pueden dejar comentarios, 
-  y el blog cuenta con funciones avanzadas como detección de IP para asignar una bandera según el país.
+  This project is a PHP-based blog that includes both public and private sections. Users can read articles in the public section, 
+  while administrators manage and organize the content in the private section. Additionally, registered users can leave comments, 
+  and the blog features advanced functionalities like IP detection to assign a flag based on the user's country.
 </p>
 
 ---
 
-<h2>🚀 Características principales</h2>
+<h2>🚀 Key Features</h2>
 
-<h3>📖 Sección Pública y Privada</h3>
+<h3>📖 Public and Private Sections</h3>
 <ul>
-  <li><strong>Sección pública:</strong> Los visitantes pueden leer artículos sobre diversos temas relacionados con visados.</li>
-  <li><strong>Sección privada:</strong> Accesible solo para administradores, quienes tienen la capacidad de crear, editar, eliminar y organizar artículos.</li>
+  <li><strong>Public Section:</strong> Visitors can read articles on various topics related to visas.</li>
+  <li><strong>Private Section:</strong> Accessible only to administrators, who can create, edit, delete, and organize articles.</li>
 </ul>
 
-<h3>💬 Comentarios y Perfiles de Usuario</h3>
+<h3>💬 Comments and User Profiles</h3>
 <ul>
-  <li><strong>Sistema de comentarios:</strong> Los usuarios registrados pueden dejar comentarios en los artículos.</li>
-  <li><strong>Perfiles de usuario:</strong> Los usuarios pueden registrarse y gestionar su perfil dentro del blog.</li>
+  <li><strong>Comment System:</strong> Registered users can leave comments on the articles.</li>
+  <li><strong>User Profiles:</strong> Users can register and manage their profiles within the blog.</li>
 </ul>
 
-<h3>🌍 Funcionalidades adicionales</h3>
+<h3>🌍 Additional Functionalities</h3>
 <ul>
-  <li><strong>Detección de IP:</strong> El sistema detecta la IP del usuario y asigna automáticamente una bandera según el país de origen.</li>
-  <li><strong>Organización de artículos por categorías:</strong> Los artículos se agrupan en categorías para facilitar la navegación.</li>
-  <li><strong>Búsqueda por título:</strong> Los usuarios pueden buscar artículos por título en la plataforma.</li>
+  <li><strong>IP Detection:</strong> The system detects the user's IP address and automatically assigns a flag based on the country of origin.</li>
+  <li><strong>Article Organization by Categories:</strong> Articles are grouped into categories to facilitate navigation.</li>
+  <li><strong>Search by Title:</strong> Users can search for articles by title on the platform.</li>
 </ul>
 
 ---
 
-<h2>🧰 Requisitos</h2>
+<h2>🧰 Requirements</h2>
 <ul>
-  <li><strong>XAMPP o WAMP:</strong> Necesitarás un servidor local como XAMPP o WAMP para ejecutar el proyecto.</li>
-  <li><strong>Base de datos:</strong> La base de datos está incluida en el archivo <code>visapages.sql</code>.</li>
+  <li><strong>XAMPP or WAMP:</strong> You'll need a local server like XAMPP or WAMP to run the project.</li>
+  <li><strong>Database:</strong> The database is included in the <code>visapages.sql</code> file.</li>
 </ul>
 
-<h2>🚀 Instrucciones para ejecutar</h2>
+<h2>🚀 Instructions to Run</h2>
 <ol>
-  <li><strong>Clonar o descargar el repositorio:</strong>
+  <li><strong>Clone or Download the Repository:</strong>
     <ul>
-      <li>Clona este repositorio usando Git o descarga el archivo ZIP.</li>
+      <li>Clone this repository using Git or download the ZIP file.</li>
     </ul>
   </li>
-  <li><strong>Configurar el servidor local:</strong>
+  <li><strong>Set Up the Local Server:</strong>
     <ul>
-      <li>Instala y configura XAMPP o WAMP en tu máquina si no lo tienes.</li>
-      <li>Coloca la carpeta del repositorio dentro de la carpeta <code>htdocs</code> de XAMPP o la carpeta <code>www</code> de WAMP.</li>
+      <li>Install and configure XAMPP or WAMP on your machine if you don't have it already.</li>
+      <li>Place the repository folder inside the <code>htdocs</code> folder of XAMPP or the <code>www</code> folder of WAMP.</li>
     </ul>
   </li>
-  <li><strong>Crear la base de datos:</strong>
+  <li><strong>Create the Database:</strong>
     <ul>
-      <li>Abre phpMyAdmin (generalmente en <code>http://localhost/phpmyadmin</code>).</li>
-      <li>Crea una nueva base de datos con el nombre de tu elección.</li>
-      <li>Importa el archivo <code>visapages.sql</code> dentro de la base de datos creada.</li>
+      <li>Open phpMyAdmin (usually at <code>http://localhost/phpmyadmin</code>).</li>
+      <li>Create a new database with your desired name.</li>
+      <li>Import the <code>visapages.sql</code> file into the created database.</li>
     </ul>
   </li>
-  <li><strong>Configurar la conexión a la base de datos:</strong>
+  <li><strong>Configure the Database Connection:</strong>
     <ul>
-      <li>Abre el archivo de configuración de la base de datos (por ejemplo, <code>config.php</code> o un archivo similar en el proyecto).</li>
-      <li>Asegúrate de que los detalles de conexión (usuario, contraseña y nombre de base de datos) sean correctos según tu configuración local.</li>
+      <li>Open the database configuration file (e.g., <code>config.php</code> or a similar file in the project).</li>
+      <li>Make sure the connection details (username, password, and database name) are correct according to your local setup.</li>
     </ul>
   </li>
-  <li><strong>Ejecutar el proyecto:</strong>
+  <li><strong>Run the Project:</strong>
     <ul>
-      <li>Inicia el servidor Apache y MySQL desde el panel de control de XAMPP o WAMP.</li>
-      <li>Abre tu navegador y accede a <code>http://localhost/visapages</code>.</li>
+      <li>Start the Apache and MySQL servers from the XAMPP or WAMP control panel.</li>
+      <li>Open your browser and go to <code>http://localhost/visapages</code>.</li>
     </ul>
   </li>
 </ol>
 
-<p><strong>¡Listo!</strong> Ahora podrás acceder al blog, explorar los artículos y, si eres administrador, gestionar el contenido.</p>
+<p><strong>Done!</strong> You can now access the blog, explore articles, and if you're an administrator, manage the content.</p>
 
 ---
 
-<h2>🔧 Contribuciones</h2>
-<p>Si deseas contribuir, realiza un fork de este repositorio, realiza los cambios y abre un pull request.</p>
+<h2>🔧 Contributions</h2>
+<p>If you'd like to contribute, fork this repository, make your changes, and submit a pull request.</p>
 
 ---
 
-El template usado en este proyecto es el siguiente: https://www.free-css.com/free-css-templates/page200/magexpress
+The template used in this project is the following: https://www.free-css.com/free-css-templates/page200/magexpress
 
-La base de datos usada para determinar el país del usuario es la de IP2Location.
+The database used to determine the user's country is from IP2Location.
+
+Note: the code and the site are in Spanish.
